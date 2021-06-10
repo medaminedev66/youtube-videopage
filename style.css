@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: rgb(24, 24, 24);
+}
+
+header {
+    display: flex;
+    padding-left: 5px;
+    background-color: #202020;
+    align-items: center;
+    height: 55px;
+}
+
+#menu {
+    margin-right: 18px;
+    margin: 0px 18px;
+}
+
+#logo {
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+    display: flex;
+}
+
+.logo,
+h1 {
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.searchBar {
+    align-items: center;
+    display: flex;
+    max-width: 700px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.search-input {
+    width: 100%;
+    border: rgb(31, 31, 31);
+    display: flex;
+    height: 32px;
+    background-color: #181818;
+    border: 1px solid #323232;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.serash-btn {
+    height: 32px;
+    width: 65px;
+    min-width: 60px;
+    background-color: #323232;
+    border: 1px solid #323232;
+}
+
+.serash-btn img {
+    color: grey;
+    width: 25px;
+}
+
+.btn {
+    background: none;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons button {
+    margin-right: 30px;
+    height: 25px;
+}
+
+#account {
+    display: flex;
+    align-items: center;
+    color: #3ea6ff;
+    margin-right: 18px;
+    width: 108px;
+    height: 40px;
+    background: none;
+    border: 1px solid #3ea6ff;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+#youtubeIcone {
+    height: 30px;
+    width: 50px;
+}
