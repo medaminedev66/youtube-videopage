@@ -1,106 +1,212 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
-.container {
-    min-height: 100vh;
-    background-color: rgb(24, 24, 24);
-}
-
-header {
-    display: flex;
-    padding-left: 5px;
-    background-color: #202020;
-    align-items: center;
-    height: 55px;
-}
-
-#menu {
-    margin-right: 18px;
-    margin: 0px 18px;
-}
-
-#logo {
-    align-items: center;
-    justify-content: space-between;
-    width: 80px;
-    display: flex;
-}
-
-.logo,
-h1 {
-    margin-left: 5px;
-    color: white;
-    font-size: 20px;
-}
-
-.searchBar {
-    align-items: center;
-    display: flex;
-    max-width: 700px;
-    width: 700px;
-    margin: 0 auto;
-}
-
-.search-input {
-    width: 100%;
-    border: rgb(31, 31, 31);
-    display: flex;
-    height: 32px;
-    background-color: #181818;
-    border: 1px solid #323232;
-    padding-left: 10px;
-    font-size: 16px;
-}
-
-.serash-btn {
-    height: 32px;
-    width: 65px;
-    min-width: 60px;
-    background-color: #323232;
-    border: 1px solid #323232;
-}
-
-.serash-btn img {
-    color: grey;
-    width: 25px;
-}
-
-.btn {
-    background: none;
-    border: none;
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-}
-
-.icons {
-    display: flex;
-}
-
-.icons button {
-    margin-right: 30px;
-    height: 25px;
-}
-
-#account {
-    display: flex;
-    align-items: center;
-    color: #3ea6ff;
-    margin-right: 18px;
-    width: 108px;
-    height: 40px;
-    background: none;
-    border: 1px solid #3ea6ff;
-    justify-content: space-around;
-    font-weight: 500;
-    font-size: 15px;
-    border-radius: 2px;
-}
-
-#youtubeIcone {
-    height: 30px;
-    width: 50px;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    
+    .container {
+        min-height: 100vh;
+        background-color: rgb(24, 24, 24);
+    }
+    
+    header {
+        display: flex;
+        padding-left: 5px;
+        background-color: #202020;
+        align-items: center;
+        height: 55px;
+    }
+    
+    #menu {
+        margin-right: 18px;
+        margin: 0px 18px;
+    }
+    
+    #logo {
+        align-items: center;
+        justify-content: space-between;
+        width: 80px;
+        display: flex;
+    }
+    
+    .logo,
+    h1 {
+        margin-left: 5px;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .searchBar {
+        align-items: center;
+        display: flex;
+        max-width: 700px;
+        width: 700px;
+        margin: 0 auto;
+    }
+    
+    .search-input {
+        width: 100%;
+        border: rgb(31, 31, 31);
+        display: flex;
+        height: 32px;
+        background-color: #181818;
+        border: 1px solid #323232;
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    
+    .serash-btn {
+        height: 32px;
+        width: 65px;
+        min-width: 60px;
+        background-color: #323232;
+        border: 1px solid #323232;
+    }
+    
+    .serash-btn img {
+        color: grey;
+        width: 25px;
+    }
+    
+    .btn {
+        background: none;
+        border: none;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+    
+    .icons {
+        display: flex;
+    }
+    
+    .icons button {
+        margin-right: 30px;
+        height: 25px;
+    }
+    
+    #account {
+        display: flex;
+        align-items: center;
+        color: #3ea6ff;
+        margin-right: 18px;
+        width: 108px;
+        height: 40px;
+        background: none;
+        border: 1px solid #3ea6ff;
+        justify-content: space-around;
+        font-weight: 500;
+        font-size: 15px;
+        border-radius: 2px;
+    }
+    
+    #youtubeIcone {
+        height: 30px;
+        width: 50px;
+    }
+    
+    .content {
+        margin-left: 100px;
+        margin-top: 50px;
+        max-width: 640px;
+        width: 640px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .title {
+        margin-top: 12px;
+        width: 640px;
+    }
+    
+    .static {
+        margin-top: 10px;
+        display: flex;
+        color: gray;
+        font-size: 8px;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: -1px;
+        border-bottom: 1px solid gray;
+        padding-bottom: 8px;
+    }
+    
+    .social {
+        display: flex;
+    }
+    
+    .views {
+        display: flex;
+    }
+    
+    .but {
+        width: 100%;
+        margin-left: 15px;
+        display: flex;
+        background: none;
+        color: grey;
+        border: none;
+        font-size: 9px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .but img {
+        padding-right: 5px;
+        width: 24px;
+        height: 24px;
+    }
+    
+    .chanel {
+        margin-left: 100px;
+        margin-top: 50px;
+        max-width: 640px;
+        width: 640px;
+        display: flex;
+        color: white;
+        border-bottom: 1px solid gray;
+        padding-bottom: 10px;
+    }
+    
+    .logo-chanel {
+        margin-right: 20px;
+    }
+    
+    .logo-chanel img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .first-line {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 18px;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+    
+    .first-line button {
+        height: 36px;
+        width: 120px;
+        background-color: #cc0000;
+        border: none;
+        border-radius: 2px;
+        color: white;
+        font-weight: 700;
+    }
+    
+    .first-line h2 {
+        font-size: 16px;
+    }
+    
+    .first-line p {
+        color: gray;
+        font-size: 14px;
+    }
+    
+    .description button {
+        margin-top: 10px;
+        background: none;
+        border: none;
+        color: gray;
+    }
