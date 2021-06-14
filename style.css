@@ -105,9 +105,18 @@
         width: 50px;
     }
     
-    .content {
+    
+    /* Body */
+
+    .all-content{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 100px;
         margin-left: 100px;
         margin-top: 50px;
+    }
+    .content {
+        
         max-width: 640px;
         width: 640px;
         display: flex;
@@ -158,7 +167,6 @@
     }
     
     .chanel {
-        margin-left: 100px;
         margin-top: 50px;
         max-width: 640px;
         width: 640px;
@@ -173,14 +181,15 @@
     }
     
     .logo-chanel img {
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
     }
     
     .first-line {
         display: flex;
         justify-content: space-between;
-        margin-top: 18px;
+        margin-top: 10px;
         margin-bottom: 50px;
         align-items: center;
     }
@@ -212,7 +221,6 @@
     }
     
     .comments {
-        margin-left: 100px;
         margin-top: 50px;
         max-width: 640px;
         width: 640px;
@@ -261,6 +269,7 @@
     .comment {
         display: flex;
         color: white;
+        margin-bottom: 30px;
     }
     
     .comment img {
@@ -271,17 +280,24 @@
     
     .commet-info {
         margin-left: 10px;
+        display: flex;
+        flex-direction: column;
     }
     
+    .commet-info p{
+        font-size: 15px;
+    }
     .comment-name {
         display: flex;
         align-items: center;
-        font-size: 14px;
-        font-weight: 700;
         margin-bottom: 10px;
     }
+    .comment-name h2{
+        font-size: 14px;
+        font-weight: 700;
+    }
     
-    .comment-name .date {
+    .comment-name p{
         font-size: 12px;
         color: #aaaaaa;
         font-weight: 500;
@@ -296,6 +312,7 @@
     }
     
     .reaction button {
+        font-size: 12.5px;
         display: flex;
         background: none;
         border: none;
@@ -305,10 +322,70 @@
     
     .reaction button img {
         padding-right: 5px;
-        width: 18px;
-        height: 18px;
+        width: 16px;
+        height: 16px;
     }
     
     .Reply {
         font-weight: 700;
     }
+
+    /*suggested videos */
+
+    .sugested-videos{
+        margin-left: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .next{
+        display: flex;
+        color: white;
+        justify-content: space-between;
+    }
+    .sugested-video {
+        display: flex;
+        padding-bottom: 8px;
+        
+    }
+    #first-video{
+        border-bottom: 1px solid gray;
+        margin-bottom: 10px;
+
+    }
+    .videoimg img{
+        width: 180px;
+    }
+    .videoInfo{
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .videoInfo h2 a{
+        color: white;
+    }
+    .videoInfo h2{
+        font-size: 15px;
+    }
+    /* unvisited link */
+a{
+    text-decoration:none;
+}
+
+
+
+    .videoInfo h3 a{
+        margin-top: 13px;
+        font-weight: 600;
+        font-size: 12px;
+        color: gray;
+        text-decoration:none;
+    }
+    .videoInfo p{
+        margin-top: 5px;
+        font-weight: 500;
+        font-size: 12px;
+        color: gray;
+    }
+}
+        
+
